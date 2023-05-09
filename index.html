@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://image.pngaaa.com/779/6447779-middle.png"
+      type="image/x-icon"
+    />
+    <title>Tailwind</title>
+    <!-- ! google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ! font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ! tailwind -->
+    <link rel="stylesheet" href="./build/tailwind.css" />
+    <!-- ! my css -->
+    <link rel="stylesheet" href="./build/style.css" />
+  </head>
+  <body class="bg-orange-100">
+    <!-- todo: title -->
+    <div class="p-10 pt-12 text-center">
+      <h1
+        class="mb-5 text-lg font-semibold text-black lg:text-4xl sm:text-2xl md:text-3xl"
+      >
+        Live anywhere
+      </h1>
+      <h2 class="text-2xl text-neutral-500">Keep calm & travel on</h2>
+    </div>
+    <!-- todo: main content -->
+    <div class="flex flex-wrap justify-center gap-16 mx-auto text-center">
+      <!-- todo: item 1 -->
+      <div>
+        <div
+          class="overflow-hidden duration-500 shadow-2xl cursor-pointer opacity-60 w-105 h-124 rounded-3xl hover:opacity-100 hover:scale-105"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            alt="House in Paris Night"
+            class="object-cover w-full h-full blur-sm hover:blur-0"
+          />
+        </div>
+        <h4 class="mb-2 font-medium mt-7">Enjoy the cool night in Paris</h4>
+        <p class="text-neutral-400">6,879 properties</p>
+      </div>
+      <!-- todo: item 2 -->
+      <div>
+        <div
+          class="overflow-hidden duration-500 shadow-2xl cursor-pointer opacity-60 w-105 h-124 rounded-3xl hover:opacity-100 hover:scale-105"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            alt="House in Los Angles"
+            class="object-cover w-full h-full blur-sm hover:blur-0"
+          />
+        </div>
+        <h4 class="mb-2 font-medium mt-7">Pick up the easiest sunrise</h4>
+        <p class="text-neutral-400">6,879 properties</p>
+      </div>
+      <!-- todo: item 3 -->
+      <div>
+        <div
+          class="overflow-hidden duration-500 shadow-2xl cursor-pointer opacity-60 w-105 h-124 rounded-3xl hover:opacity-100 hover:scale-105"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80"
+            alt="House with awesome pool"
+            class="object-cover w-full h-full blur-sm hover:blur-0"
+          />
+        </div>
+        <h4 class="mb-2 font-medium mt-7">Swimming with fresh air</h4>
+        <p class="text-neutral-400">6,879 properties</p>
+      </div>
+    </div>
+    <!-- todo: load-more button -->
+    <div class="py-8 text-center">
+      <a
+        href="https://dribbble.com/shots/15761617-Fleet-Travel-Shopping-UI-Kit/attachments/7567384?mode=media"
+        target="_blank"
+      >
+        <button
+          class="px-5 py-3 duration-500 bg-white border-2 rounded-full shadow-lg hover:border-black hover:bg-black hover:text-white"
+        >
+          <i class="fa-solid fa-spinner me-3"></i>
+          <span class="font-medium">Load more</span>
+        </button>
+      </a>
+    </div>
+  </body>
+</html>
